@@ -3,8 +3,8 @@ local wezterm = require("wezterm")
 local config = {}
 
 config.color_scheme = "Gruvbox Dark (Gogh)"
-config.font = wezterm.font("Iosevka Comfy")
-config.font_size = 18
+-- config.font = wezterm.font("Iosevka Comfy")
+config.font_size = 16
 config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
