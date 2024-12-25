@@ -115,7 +115,6 @@ export PATH=$PATH:$GOPATH/bin
 alias cursor=/home/arjun/Applications/cursor-0.42.4x86_64_4eb43e03d46b1e823cdd3f6697f8ffe8.AppImage
 alias obsidian=/home/arjun/Applications/Obsidian-1.7.4_88adcfe5447b27d4165cb35f6a29bca4.AppImage
 alias webstorm=/home/arjun/Downloads/WebStorm-242.23726.96/bin/webstorm
-. "/home/arjun/.deno/env"
 
 alias gittree="git log --graph --decorate --all --pretty=format:'%C(yellow)%h%Creset - %s %C(green)(%ar) %C(bold blue)<%an>%Creset'"
 alias btop="btop --utf-force"
