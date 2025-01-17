@@ -21,8 +21,8 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-(setq doom-font (font-spec :family "Iosevka Nerd Font"  :size 25 :weight 'semi-light)
-      doom-variable-pitch-font (font-spec  :size 25))
+(setq doom-font (font-spec :family "IosevkaTerm Nerd Font" :size 20 :weight 'semi-light)
+      doom-variable-pitch-font (font-spec  :size 20))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-gruvbox)
+;;(setq doom-theme 'doom-gruvbox)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -85,3 +85,12 @@
               ("C-<tab>" . 'copilot-accept-completion-by-word)))
 
 (setq doom-theme `doom-rose-pine-moon)
+
+;; Disable confirmation when exiting Emacs
+(setq confirm-kill-emacs nil)
+
+;; Disable confirmation when killing a buffer with unsaved changes
+(setq kill-buffer-query-functions
+      (remq 'process-kill-buffer-query-function kill-buffer-query-functions))
+
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
