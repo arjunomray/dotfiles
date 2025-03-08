@@ -971,3 +971,8 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.softtabstop = 4
+
+if vim.g.neovide then
+  vim.g.neovide_opacity = 0.4
+  vim.g.neovide_normal_opacity = 0.4
+end
