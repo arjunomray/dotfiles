@@ -4,21 +4,49 @@ return {
   config = function()
     require('dashboard').setup {
       -- config
-      theme = 'hyper',
+      theme = 'doom',
       config = {
+        package = { enable = true },
+        project = { enable = false },
         header = {
-          "",
-          " /| ､      ",
-          "(°､ ｡ 7    ",
-          " |､  ~ヽ   ",
-          " じしf_,)〳",
-          "",
-          "",
-          "Make fun things. :)",
-          "",
-        },           --your header
+          '',
+          ' /| ､      ',
+          '(°､ ｡ 7    ',
+          ' |､  ~ヽ   ',
+          ' じしf_,)〳',
+          '',
+          '',
+          'Make fun things. :)',
+          '',
+        }, --your header
 
-        footer = {}, --your footer
+        center = {
+          {
+            icon = ' ',
+            icon_hl = 'Title',
+            desc = 'Find File           ',
+            desc_hl = 'String',
+            key = 'b',
+            keymap = 'SPC f f',
+            key_hl = 'Number',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'lua print(2)',
+          },
+          {
+            icon = ' ',
+            desc = 'Find Dotfiles',
+            key = 'f',
+            keymap = 'SPC f d',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'lua print(3)',
+          },
+        },
+        footer = {
+          '',
+          '',
+          'welcome back arjun',
+          '',
+        }, --your footer
       },
     }
   end,
