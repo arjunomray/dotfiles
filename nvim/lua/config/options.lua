@@ -4,3 +4,4 @@
 
 vim.opt.colorcolumn = "80"
 vim.cmd([[highlight ColorColumn ctermbg=darkgray guibg=#3b3b3b]])
+vim.g.lsp_inlay_hints_enabled = false
