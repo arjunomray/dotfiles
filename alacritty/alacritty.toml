@@ -1,0 +1,10 @@
+[general]
+import = [
+  "./themes/everforest.toml"
+]
+
+[font]
+size = 16
+
+[font.normal]
+family = "JetbrainsMono Nerd Font"

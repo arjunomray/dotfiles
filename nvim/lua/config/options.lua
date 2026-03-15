@@ -2,6 +2,5 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
-vim.opt.colorcolumn = "80"
-vim.cmd([[highlight ColorColumn ctermbg=darkgray guibg=#3b3b3b]])
-vim.g.lsp_inlay_hints_enabled = false
+-- Force truecolor in all terminals (including tmux panes).
+vim.opt.termguicolors = true

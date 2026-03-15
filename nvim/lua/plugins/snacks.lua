@@ -1,6 +1,18 @@
 return {
-  "folke/snacks.nvim",
-  explorer = {
-    layout = { layout = { position = "right" } },
+  {
+    "folke/snacks.nvim",
+    opts = {
+      picker = {
+        sources = {
+          explorer = {
+            layout = {
+              layout = {
+                position = "right",
+              },
+            },
+          },
+        },
+      },
+    },
   },
 }

@@ -6,3 +6,15 @@ formatter = { command = "rustfmt", args = ["--edition", "2021"] }
 [language-server.rust-analyzer]
 config = { checkOnSave = { command = "clippy" }, cargo = { allFeatures = true }}
 
+[[language]]
+name = "javascript"
+scope = "source.js"
+language-servers = ["typescript-language-server"]
+formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
+auto-format = true
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server"]
+formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
+auto-format = true
