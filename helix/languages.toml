@@ -9,12 +9,12 @@ config = { checkOnSave = { command = "clippy" }, cargo = { allFeatures = true }}
 [[language]]
 name = "javascript"
 scope = "source.js"
-language-servers = ["typescript-language-server"]
+language-servers = ["typescript-language-server", "discord-rpc"]
 formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
 auto-format = true
 
 [[language]]
 name = "typescript"
-language-servers = ["typescript-language-server"]
+language-servers = ["typescript-language-server", "discord-rpc"]
 formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
 auto-format = true

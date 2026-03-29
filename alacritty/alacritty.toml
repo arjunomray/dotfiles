@@ -1,6 +1,6 @@
 [general]
 import = [
-  "./themes/everforest.toml"
+  "./themes/rose-pine.toml"
 ]
 
 [font]
