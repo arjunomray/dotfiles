@@ -4,3 +4,4 @@
 
 -- Force truecolor in all terminals (including tmux panes).
 vim.opt.termguicolors = true
+vim.opt.autoread = true
