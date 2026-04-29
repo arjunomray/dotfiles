@@ -185,7 +185,7 @@ if.app-name-regex-substring = 'finder'
 run = 'layout floating'
 
 [[on-window-detected]]
-if.app-id = "net.kovidgoyal.kitty"
+if.app-id = "org.alacritty"
 run = 'move-node-to-workspace 1'
 
 [[on-window-detected]]
