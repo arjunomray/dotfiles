@@ -1,10 +1,10 @@
 [general]
 import = [
-  "./themes/rose-pine.toml"
+ "./themes/themes/everforest_dark_hard.toml"
 ]
 
 [font]
-size = 16
+size = 13
 
 [font.normal]
 family = "JetbrainsMono Nerd Font"
