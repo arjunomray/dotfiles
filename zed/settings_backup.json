@@ -1,0 +1,156 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+      },
+      "enable_lsp_tasks": true,
+    },
+  },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
+    "claude-acp": {
+      "type": "registry"
+    },
+    "cursor": {
+      "type": "registry",
+    },
+    "codex-acp": {
+      "type": "registry",
+    },
+  },
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "copilot",
+  },
+  "collaboration_panel": {
+    "dock": "left",
+  },
+  "outline_panel": {
+    "dock": "left",
+  },
+  "git_panel": {
+    "dock": "left",
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "ui_font_family": ".ZedSans",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "agent": {
+    "single_file_review": true,
+    "dock": "left",
+    "notify_when_agent_waiting": "primary_screen",
+    "enable_feedback": false,
+    "show_turn_stats": true,
+    "play_sound_when_agent_done": "always",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-5.1-codex",
+      "enable_thinking": false,
+    },
+    "model_parameters": [],
+    "default_profile": "ask",
+  },
+  "icon_theme": {
+    "mode": "light",
+    "light": "Colored Zed Icons Theme Dark",
+    "dark": "VSCode Icons for Zed (Dark)",
+  },
+  "project_panel": {
+    "dock": "right",
+  },
+  "ui_font_size": 16.0,
+  "buffer_font_size": 13.0,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "vim_mode": true,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Everforest Dark Hard (material)",
+  },
+  // Editor toolbar related settings
+  "toolbar": {
+    "breadcrumbs": true, // Whether to show breadcrumbs.
+    "quick_actions": true, // Whether to show quick action buttons.
+    "selections_menu": true, // Whether to show the Selections menu
+    "agent_review": true, // Whether to show agent review buttons
+    "code_actions": false, // Whether to show code action buttons
+  },
+
+  // Whether the cursor blinks in the editor.
+  "cursor_blink": true,
+
+  // Cursor shape for the default editor: bar, block, underline, hollow
+  "cursor_shape": null,
+
+  // Highlight the current line in the editor: none, gutter, line, all
+  "current_line_highlight": "all",
+
+  // When does the mouse cursor hide: never, on_typing, on_typing_and_movement
+  "hide_mouse": "on_typing_and_movement",
+
+  // Whether to highlight all occurrences of the selected text in an editor.
+  "selection_highlight": true,
+
+  // Visually show tabs and spaces  (none, all, selection, boundary, trailing)
+  "show_whitespaces": "selection",
+
+  "unnecessary_code_fade": 0.3, // How much to fade out unused code.
+
+  // Hide the values of in variables from visual display in private files
+  "redact_private_values": true,
+
+  // Soft-wrap and rulers
+  "soft_wrap": "none", // none, editor_width, preferred_line_length, bounded
+  "preferred_line_length": 80, // Column to soft-wrap
+  "show_wrap_guides": true, // Show/hide wrap guides (vertical rulers)
+  "wrap_guides": [], // Where to position wrap_guides (character counts)
+
+  // Gutter Settings
+  "gutter": {
+    "line_numbers": true, // Show/hide line numbers in the gutter.
+    "runnables": true, // Show/hide runnables buttons in the gutter.
+    "breakpoints": true, // Show/hide show breakpoints in the gutter.
+    "folds": true, // Show/hide show fold buttons in the gutter.
+    "min_line_number_digits": 4, // Reserve space for N digit line numbers
+  },
+  "relative_line_numbers": "enabled", // Show relative line numbers in gutter
+
+  "tab_bar": {
+    "show": false,
+  },
+
+  // Indent guides
+  "indent_guides": {
+    "enabled": true,
+    "line_width": 1, // Width of guides in pixels [1-10]
+    "active_line_width": 1, // Width of active guide in pixels [1-10]
+    "coloring": "fixed", // disabled, fixed, indent_aware
+    "background_coloring": "disabled", // disabled, indent_aware
+  },
+}
