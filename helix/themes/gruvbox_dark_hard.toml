@@ -1,0 +1,5 @@
+
+inherits = "gruvbox_dark_hard"
+
+# Removes the background color to let terminal transparency show through
+"ui.background" = {} 
