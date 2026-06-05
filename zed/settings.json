@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "active_pane_modifiers": {
+    "inactive_opacity": 0.7
+  },
   "auto_update": false,
   "lsp": {
     "vtsls": {
@@ -55,7 +58,7 @@
   "autosave": {
     "after_delay": {
       "milliseconds": 1000,
-    }
+    },
   },
   "ui_font_family": ".ZedSans",
   "telemetry": {
@@ -79,7 +82,7 @@
     "default_profile": "ask",
   },
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Colored Zed Icons Theme Light",
     "dark": "Colored Zed Icons Theme Dark",
   },
@@ -90,11 +93,10 @@
   "buffer_font_size": 13.0,
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "vim_mode": true,
-  "helix_mode": true,
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Everforest Dark Hard (regular)",
+    "dark": "Gruvbox Dark Hard",
   },
   // Editor toolbar related settings
   "toolbar": {

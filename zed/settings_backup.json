@@ -77,7 +77,7 @@
     "default_profile": "ask",
   },
   "icon_theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Colored Zed Icons Theme Dark",
     "dark": "VSCode Icons for Zed (Dark)",
   },
@@ -89,9 +89,9 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "vim_mode": true,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Everforest Dark Hard (material)",
+    "dark": "Gruvbox Dark Hard",
   },
   // Editor toolbar related settings
   "toolbar": {

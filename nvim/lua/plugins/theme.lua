@@ -1,8 +1,13 @@
--- lua/plugins/rose-pine.lua
 return {
-  "neanias/everforest-nvim",
-  name = "everforest",
-  config = function()
-    vim.cmd("colorscheme everforest")
+  "ellisonleao/gruvbox.nvim",
+  opts = {
+    contrast = "hard",
+    transparent_mode = true,
+  },
+
+  config = function(_, opts)
+    vim.o.background = "dark"
+    require("gruvbox").setup(opts)
+    vim.cmd("colorscheme gruvbox")
   end,
 }
