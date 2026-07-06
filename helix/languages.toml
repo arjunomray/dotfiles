@@ -18,3 +18,19 @@ name = "typescript"
 language-servers = ["typescript-language-server", "discord-rpc"]
 formatter = { command = "prettier", args = ["--stdin-filepath", "file.js"] }
 auto-format = true
+
+[language.debugger]
+command = "node"
+args = ["/Users/arjun/.local/share/nvim/mason/packages/js-debug-adapter/js-debug/src/dapDebugServer.js"]
+name = "js-debug-adapter"
+transport = "stdio"
+
+[[language.debugger.templates]]
+name = "Attach to Running Node Process"
+request = "attach"
+
+[language.debugger.templates.args]
+port = "9229"
+restart = true
+localRoot = "{workspaceFolder}"
+remoteRoot = "{workspaceFolder}"

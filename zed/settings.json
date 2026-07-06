@@ -7,8 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "debugger": {
+    "dock": "bottom"
+  },
+  "cli_default_open_behavior": "new_window",
+  "bottom_dock_layout": "full",
+  "title_bar": {
+    "show_branch_status_icon": true,
+  },
+  "status_bar": {
+    "line_endings_button": true,
+    "show_active_file": true,
+  },
   "active_pane_modifiers": {
-    "inactive_opacity": 0.7
+    "inactive_opacity": 0.8,
   },
   "auto_update": false,
   "lsp": {
@@ -30,6 +42,10 @@
   },
   "agent_servers": {
     "opencode": {
+      "default_config_options": {
+        "effort": "medium",
+        "model": "openai/gpt-5.5",
+      },
       "type": "registry",
     },
     "claude-acp": {
@@ -66,9 +82,11 @@
     "metrics": false,
   },
   "agent": {
+    "sidebar_side": "right",
+    "button": true,
     "single_file_review": true,
     "dock": "right",
-    "notify_when_agent_waiting": "primary_screen",
+    "notify_when_agent_waiting": "never",
     "enable_feedback": false,
     "show_turn_stats": true,
     "play_sound_when_agent_done": "always",
@@ -92,6 +110,7 @@
   "ui_font_size": 16.0,
   "buffer_font_size": 13.0,
   "buffer_font_family": "JetBrainsMono Nerd Font",
+  "helix_mode": true,
   "vim_mode": true,
   "theme": {
     "mode": "dark",

@@ -4,6 +4,7 @@ theme = "gruvbox_dark_hard"
 line-number = "relative"
 mouse = false
 soft-wrap.enable = true
+auto-format = true
 
 [editor.cursor-shape]
 insert = "bar"
