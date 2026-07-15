@@ -1,0 +1,134 @@
+# City Lights theme for Helix
+# Author: Based on City Lights by Yummygum (https://citylights.xyz)
+
+# UI
+"ui.background"             = { bg = "bg" }
+"ui.background.separator"   = { fg = "border" }
+"ui.cursor"                 = { fg = "bg", bg = "cursor_blue", modifiers = ["reversed"] }
+"ui.cursor.primary"         = { fg = "bg", bg = "cursor_blue" }
+"ui.cursor.insert"          = { fg = "bg", bg = "fg", modifiers = ["reversed"] }
+"ui.cursor.select"          = { fg = "bg", bg = "muted" }
+"ui.cursor.match"           = { fg = "bg", bg = "cyan" }
+"ui.gutter"                 = { bg = "bg" }
+"ui.linenr"                 = { fg = "gutter" }
+"ui.linenr.selected"        = { fg = "muted", modifiers = ["bold"] }
+"ui.statusline"             = { fg = "fg", bg = "dark_bg" }
+"ui.statusline.inactive"    = { fg = "muted", bg = "dark_bg" }
+"ui.statusline.normal"      = { fg = "dark_bg", bg = "cursor_blue", modifiers = ["bold"] }
+"ui.statusline.insert"      = { fg = "dark_bg", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select"      = { fg = "dark_bg", bg = "pink", modifiers = ["bold"] }
+"ui.popup"                  = { fg = "fg", bg = "dark_bg" }
+"ui.popup.info"             = { fg = "fg", bg = "dark_bg" }
+"ui.window"                 = { fg = "border" }
+"ui.help"                   = { fg = "fg", bg = "dark_bg" }
+"ui.text"                   = { fg = "fg" }
+"ui.text.focus"             = { fg = "fg", modifiers = ["bold"] }
+"ui.text.info"              = { fg = "muted" }
+"ui.virtual.ruler"          = { bg = "selection_bg" }
+"ui.virtual.whitespace"     = { fg = "border" }
+"ui.virtual.indent-guide"   = { fg = "border" }
+"ui.virtual.inlay-hint"     = { fg = "gutter", bg = "bg" }
+"ui.selection"              = { bg = "selection_bg" }
+"ui.selection.primary"      = { bg = "selection_bg" }
+"ui.highlight"              = { bg = "selection_bg" }
+"ui.highlight.frameline"    = { bg = "selection_bg" }
+"ui.menu"                   = { fg = "fg", bg = "dark_bg" }
+"ui.menu.selected"          = { fg = "dark_bg", bg = "cursor_blue" }
+"ui.menu.scroll"            = { fg = "muted", bg = "dark_bg" }
+"ui.picker.header"          = { fg = "cursor_blue", modifiers = ["bold"] }
+"ui.picker.header.column"   = { fg = "muted" }
+
+# Diagnostics
+"diagnostic.error"          = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning"        = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info"           = { underline = { color = "cursor_blue", style = "curl" } }
+"diagnostic.hint"           = { underline = { color = "teal", style = "curl" } }
+"diagnostic.unnecessary"    = { modifiers = ["dim"] }
+"diagnostic.deprecated"     = { modifiers = ["crossed_out"] }
+"error"                     = { fg = "red" }
+"warning"                   = { fg = "yellow" }
+"info"                      = { fg = "cursor_blue" }
+"hint"                      = { fg = "teal" }
+
+# SYNTAX
+"attribute"                 = { fg = "pink" }
+"comment"                   = { fg = "muted", modifiers = ["italic"] }
+"comment.line"              = { fg = "muted", modifiers = ["italic"] }
+"comment.block"             = { fg = "muted", modifiers = ["italic"] }
+"comment.block.documentation" = { fg = "muted", modifiers = ["italic"] }
+"constant"                  = { fg = "blue" }
+"constant.builtin"          = { fg = "cursor_blue" }
+"constant.character"        = { fg = "green" }
+"constant.character.escape" = { fg = "teal" }
+"constant.numeric"          = { fg = "blue" }
+"constructor"               = { fg = "fg" }
+"diff.delta"                = { fg = "yellow" }
+"diff.minus"                = { fg = "red" }
+"diff.plus"                 = { fg = "green" }
+"function"                  = { fg = "cursor_blue" }
+"function.builtin"          = { fg = "cursor_blue" }
+"function.macro"            = { fg = "teal" }
+"function.method"           = { fg = "cursor_blue" }
+"keyword"                   = { fg = "pink", modifiers = ["italic"] }
+"keyword.control"           = { fg = "pink", modifiers = ["italic"] }
+"keyword.control.return"    = { fg = "pink", modifiers = ["italic"] }
+"keyword.operator"          = { fg = "pink" }
+"keyword.directive"         = { fg = "pink" }
+"keyword.function"          = { fg = "pink", modifiers = ["italic"] }
+"keyword.storage"           = { fg = "pink", modifiers = ["italic"] }
+"keyword.storage.type"      = { fg = "pink", modifiers = ["italic"] }
+"label"                     = { fg = "cursor_blue" }
+"module"                    = { fg = "fg" }
+"namespace"                 = { fg = "fg" }
+"operator"                  = { fg = "teal" }
+"punctuation"               = { fg = "muted" }
+"punctuation.delimiter"     = { fg = "muted" }
+"punctuation.bracket"       = { fg = "fg" }
+"special"                   = { fg = "teal" }
+"string"                    = { fg = "green" }
+"string.regexp"             = { fg = "teal" }
+"string.special"            = { fg = "teal" }
+"string.special.url"        = { fg = "blue", modifiers = ["underlined"] }
+"tag"                       = { fg = "pink" }
+"tag.builtin"               = { fg = "pink" }
+"tag.attribute"             = { fg = "cursor_blue" }
+"type"                      = { fg = "yellow" }
+"type.builtin"              = { fg = "yellow" }
+"type.enum.variant"         = { fg = "fg" }
+"variable"                  = { fg = "fg" }
+"variable.builtin"          = { fg = "cursor_blue" }
+"variable.other.member"     = { fg = "fg" }
+"variable.parameter"        = { fg = "fg", modifiers = ["italic"] }
+
+# Markup
+"markup.heading"            = { fg = "cursor_blue", modifiers = ["bold"] }
+"markup.heading.1"          = { fg = "cursor_blue", modifiers = ["bold"] }
+"markup.heading.2"          = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.3"          = { fg = "teal", modifiers = ["bold"] }
+"markup.bold"               = { modifiers = ["bold"] }
+"markup.italic"             = { modifiers = ["italic"] }
+"markup.strikethrough"      = { modifiers = ["crossed_out"] }
+"markup.link.url"           = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.text"          = { fg = "cursor_blue" }
+"markup.raw"                = { fg = "green" }
+"markup.raw.inline"         = { fg = "green" }
+"markup.raw.block"          = { fg = "green" }
+"markup.list"               = { fg = "pink" }
+
+[palette]
+bg           = "#1d252c"
+dark_bg      = "#181e24"
+fg           = "#b7c5d3"
+muted        = "#41505e"
+gutter       = "#41505e"
+border       = "#333f4a"
+selection_bg = "#28323a"
+cursor_blue  = "#5ec4ff"
+blue         = "#539afc"
+teal         = "#008b94"
+cyan         = "#70e1e8"
+green        = "#8bd49c"
+red          = "#d95468"
+pink         = "#e27e8d"
+yellow       = "#d98e48"
+orange       = "#ebbf83"

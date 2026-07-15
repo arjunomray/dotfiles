@@ -1,6 +1,6 @@
 [general]
 import = [
- "./themes/themes/gruvbox_dark_hard.toml"
+ "./themes/themes/citylights.toml"
 ]
 
 [font]

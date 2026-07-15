@@ -1,13 +1,9 @@
 return {
-  "ellisonleao/gruvbox.nvim",
-  opts = {
-    contrast = "hard",
-    transparent_mode = true,
-  },
+  "jordanbrauer/citylights.nvim",
+  lazy = false,
+  priority = 1000,
 
-  config = function(_, opts)
-    vim.o.background = "dark"
-    require("gruvbox").setup(opts)
-    vim.cmd("colorscheme gruvbox")
+  config = function()
+    vim.cmd("colorscheme citylights")
   end,
 }
