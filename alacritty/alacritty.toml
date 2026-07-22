@@ -1,6 +1,6 @@
 [general]
 import = [
- "./themes/themes/citylights.toml"
+ "./themes/themes/rose_pine.toml"
 ]
 
 [font]
