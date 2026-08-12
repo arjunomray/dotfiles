@@ -78,7 +78,10 @@ vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 
 vim.opt.foldmethod = 'expr'
-vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.opt.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+vim.opt.foldtext = '' -- use the first line of the fold as-is (cleaner look)
+vim.opt.foldlevel = 99 -- open all folds by default
+vim.opt.foldlevelstart = 99
 
 -- to make neovim transparent
 vim.cmd [[
