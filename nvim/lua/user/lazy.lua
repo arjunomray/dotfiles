@@ -666,19 +666,26 @@ require('lazy').setup({
     lazy = false, -- new rewrite does not support lazy loading
     build = ':TSUpdate',
     config = function()
-      -- Install parsers (no-op if already installed)
+      -- Install parsers asynchronously (no-op if already installed)
       require('nvim-treesitter').install({
         'bash', 'c', 'cpp', 'css', 'diff', 'go', 'html', 'javascript',
         'json', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'python',
         'query', 'rust', 'tsx', 'typescript', 'vim', 'vimdoc', 'yaml',
       })
 
-      -- Enable treesitter highlighting for all filetypes
+      -- Enable treesitter highlighting for all future filetypes
       vim.api.nvim_create_autocmd('FileType', {
-        callback = function()
-          pcall(vim.treesitter.start)
+        callback = function(args)
+          pcall(vim.treesitter.start, args.buf)
         end,
       })
+
+      -- Also enable for all already-open buffers (e.g. file opened at startup)
+      for _, buf in ipairs(vim.api.nvim_list_bufs()) do
+        if vim.api.nvim_buf_is_loaded(buf) then
+          pcall(vim.treesitter.start, buf)
+        end
+      end
     end,
   },
 
