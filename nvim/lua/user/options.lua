@@ -16,7 +16,7 @@ opt.sidescrolloff = 8
 opt.wrap = false
 opt.list = true
 opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
-opt.fillchars = { fold = ' ', foldopen = '', foldclose = '', foldsep = ' ', diff = '╱', eob = ' ' }
+opt.fillchars = { fold = ' ', foldopen = '▾', foldclose = '▸', foldsep = ' ', diff = '╱', eob = ' ' }
 
 -- Behaviour
 opt.mouse = 'a'
