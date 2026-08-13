@@ -1,6 +1,6 @@
 [general]
 import = [
- "./themes/themes/rose_pine.toml"
+ "./themes/themes/catppuccin_mocha.toml"
 ]
 
 [font]

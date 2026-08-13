@@ -1,4 +1,4 @@
-theme = "rose_pine"
+theme = "catppuccin_mocha"
 
 [editor]
 line-number = "relative"
@@ -13,3 +13,19 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[keys.normal]
+g = "no_op"
+
+[keys.normal.s]
+g = "goto_file_start"
+e = "goto_file_end"
+d = "goto_definition"
+D = "goto_type_definition"
+r = "goto_reference"
+i = "goto_implementation"
+a = "goto_last_accessed_file"
+m = "goto_last_modified_file"
+n = "goto_next_buffer"
+p = "goto_previous_buffer"
+"." = "goto_last_change"

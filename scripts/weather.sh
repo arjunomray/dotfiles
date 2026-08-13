@@ -11,7 +11,7 @@ if [ -f "$CACHE_FILE" ]; then
     fi
 fi
 
-RESULT=$(curl -s --max-time 5 "wttr.in/?format=%c+%t" 2>/dev/null)
+RESULT=$(curl -s --max-time 5 "wttr.in/?format=%t" 2>/dev/null)
 if [ -n "$RESULT" ]; then
     echo "$RESULT" > "$CACHE_FILE"
     echo "$RESULT"
