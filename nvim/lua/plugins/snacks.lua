@@ -6,13 +6,7 @@ return {
     -- Dashboard
     dashboard = {
       preset = {
-        header = [[
-  /| ､
-(°､ ｡ 7
- |､  ~ヽ
- じしf_,)〳
-
-  n e o v i m]],
+        header = ' /| ､\n(°､ ｡ 7\n |､  ~ヽ\n じしf_,)〳\n\n  n e o v i m',
         keys = {
           { icon = ' ', key = 'f', desc = 'Find File',       action = ':lua Snacks.picker.files()' },
           { icon = ' ', key = 'g', desc = 'Live Grep',       action = ':lua Snacks.picker.grep()' },
