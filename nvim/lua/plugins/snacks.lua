@@ -8,12 +8,12 @@ return {
       preset = {
         header = ' /| ､      \n(°､ ｡ 7    \n |､  ~ヽ   \n じしf_,)〳\n\n  n e o v i m',
         keys = {
-          { icon = ' ', key = 'f', desc = 'Find File',       action = ':lua Snacks.picker.files()' },
-          { icon = ' ', key = 'g', desc = 'Live Grep',       action = ':lua Snacks.picker.grep()' },
-          { icon = ' ', key = 'r', desc = 'Recent Files',    action = ':lua Snacks.picker.recent()' },
-          { icon = ' ', key = 's', desc = 'Restore Session', action = ':lua require("persistence").load()' },
+          { icon = '󰈞 ', key = 'f', desc = 'Find File',       action = ':lua Snacks.picker.files()' },
+          { icon = '󰊄 ', key = 'g', desc = 'Live Grep',       action = ':lua Snacks.picker.grep()' },
+          { icon = '󰄉 ', key = 'r', desc = 'Recent Files',    action = ':lua Snacks.picker.recent()' },
+          { icon = '󰁯 ', key = 's', desc = 'Restore Session', action = ':lua require("persistence").load()' },
           { icon = '󰒲 ', key = 'l', desc = 'Lazy',           action = ':Lazy' },
-          { icon = ' ', key = 'q', desc = 'Quit',            action = ':qa' },
+          { icon = '󰅚 ', key = 'q', desc = 'Quit',            action = ':qa' },
         },
       },
     },
