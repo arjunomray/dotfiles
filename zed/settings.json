@@ -102,7 +102,7 @@
   "icon_theme": {
     "mode": "dark",
     "light": "Colored Zed Icons Theme Light",
-    "dark": "Colored Zed Icons Theme Dark",
+    "dark": "Catppuccin Mocha",
   },
   "project_panel": {
     "dock": "right",
