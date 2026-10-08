@@ -1,0 +1,16 @@
+2026-10-06T02:32:13.561537Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=18534
+2026-10-06T02:32:13.561634Z  INFO herdr::client: connecting to server path=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-06T02:32:13.617725Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.3
+2026-10-08T02:00:07.238427Z  INFO herdr::client: client terminal unavailable; detaching err=I/O error (os error 5)
+2026-10-08T02:00:07.244763Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=18534
+2026-10-08T07:14:07.374421Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=286902
+2026-10-08T07:14:07.374479Z  INFO herdr::client: connecting to server path=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-08T07:14:07.519663Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.3
+2026-10-08T07:14:41.860398Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=286902
+2026-10-08T07:14:43.119465Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=287047
+2026-10-08T07:14:43.119497Z  INFO herdr::client: connecting to server path=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-08T07:14:43.356415Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.3
+2026-10-08T08:30:24.899101Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=287047
+2026-10-08T08:54:50.524649Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=7535
+2026-10-08T08:54:50.524699Z  INFO herdr::client: connecting to server path=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-08T08:54:50.752815Z  INFO herdr::client::handshake: endpoint handshake succeeded generation=1 server_version=0.9.3

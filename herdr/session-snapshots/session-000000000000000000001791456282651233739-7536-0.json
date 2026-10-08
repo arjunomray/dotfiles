@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w8",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/.config",
+      "public_pane_numbers": {
+        "2": 2
+      },
+      "next_public_pane_number": 5,
+      "public_tab_numbers": [
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 2
+          },
+          "panes": {
+            "2": {
+              "cwd": "/home/arjun/.config",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-.config/2026-10-08T09-05-22-207Z_01a11ac2-951f-76a8-9299-eccebfc68fb2.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 2,
+          "root_pane": 2
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "wA",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/job-finding-2026",
+      "public_pane_numbers": {
+        "7": 2,
+        "5": 1
+      },
+      "next_public_pane_number": 3,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": "agents",
+          "layout": {
+            "Pane": 5
+          },
+          "panes": {
+            "5": {
+              "cwd": "/home/arjun/code/job-finding-2026",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-job-finding-2026/2026-10-08T09-13-04-085Z_01a11ac9-a155-72a9-a95c-90387bd44253.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        },
+        {
+          "custom_name": "editor",
+          "layout": {
+            "Pane": 7
+          },
+          "panes": {
+            "7": {
+              "cwd": "/home/arjun/code/job-finding-2026"
+            }
+          },
+          "zoomed": false,
+          "focused": 7,
+          "root_pane": 7
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 1,
+  "selected": 1,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

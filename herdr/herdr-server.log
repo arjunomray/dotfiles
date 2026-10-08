@@ -1,0 +1,803 @@
+2026-10-06T02:32:13.461573Z  INFO herdr::api::server: api server listening path=/home/arjun/.config/herdr/herdr.sock
+2026-10-06T02:32:13.462373Z  INFO herdr::persist::io: session file is missing event="persist.restore" subsystem="persist" outcome="missing" path=/home/arjun/.config/herdr/session.json
+2026-10-06T02:32:13.462398Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-06T02:32:13.535321Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T02:32:13.536411Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=40 cols=120 scrollback_limit_bytes=10000000
+2026-10-06T02:32:13.538016Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=18547
+2026-10-06T02:32:13.538341Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-10-06T02:32:13.538361Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T02:32:13.538370Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T02:32:13.538380Z  INFO herdr::server::headless::bootstrap: created startup workspace cwd=/home/arjun
+2026-10-06T02:32:13.538536Z  INFO herdr::server::headless: client protocol socket listening path=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-06T02:32:13.538615Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/arjun/.config/herdr/herdr.sock client_socket=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-06T02:32:13.538750Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=18535
+2026-10-06T02:32:13.617696Z  INFO herdr::server::headless: client connected client_id=2 cols=121 rows=32 cell_width_px=13 cell_height_px=30 surface_active=true render_encoding=SemanticFrame
+2026-10-06T02:32:18.232173Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="omp"
+2026-10-06T02:32:18.241012Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-10-06T02:32:18.548566Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791253938541435820-18535-0.json
+2026-10-06T02:32:18.548661Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T02:33:14.351086Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T02:33:14.353282Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=18918
+2026-10-06T02:33:14.353507Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T02:33:15.259385Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T02:33:15.259855Z  INFO herdr::pane: pane session terminated pane=2 pid=18918 signal=Hangup
+2026-10-06T02:33:20.262139Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T02:39:04.099481Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(21656)
+2026-10-06T02:39:04.474178Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(21656)
+2026-10-06T02:39:09.471032Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T02:51:31.408016Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T02:51:31.411978Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T02:51:46.127221Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T02:51:46.129436Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=25279
+2026-10-06T02:51:46.129679Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T02:51:51.150432Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791255111135623223-18535-0.json
+2026-10-06T02:51:51.150959Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T03:02:13.537638Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T06:33:42.236766Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=32 cols=72 scrollback_limit_bytes=10000000
+2026-10-06T06:33:42.238896Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=38451
+2026-10-06T06:33:42.239123Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T06:33:47.258369Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791268427242901031-18535-0.json
+2026-10-06T06:33:47.258755Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T06:35:52.538761Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T06:36:07.676850Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:36:07.676943Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:36:12.679193Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T06:36:13.043099Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:36:13.043125Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:36:15.148855Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Omp) agent=None pgid=Some(18547)
+2026-10-06T06:36:19.848929Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T06:36:29.699637Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(39247)
+2026-10-06T06:36:29.940153Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(39247)
+2026-10-06T06:36:34.839083Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T06:40:10.604517Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=32 cols=72 scrollback_limit_bytes=10000000
+2026-10-06T06:40:10.606779Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=39921
+2026-10-06T06:40:10.607253Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=5
+2026-10-06T06:40:10.607262Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T06:40:10.607268Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T06:40:15.610763Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T06:42:33.298116Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T06:42:33.298150Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:42:33.298212Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:42:38.300506Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T06:43:04.319735Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T06:43:04.319765Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T06:43:07.664800Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(41312)
+2026-10-06T06:43:08.023074Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(41312)
+2026-10-06T06:43:12.923265Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T06:44:28.154827Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T06:44:28.154861Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:44:30.510939Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T06:44:30.510967Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T06:44:35.513047Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T06:45:53.355862Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T06:45:53.356061Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T06:50:13.871307Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T06:50:13.871474Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T06:51:43.915078Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T06:51:43.915115Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:51:43.915165Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T06:51:43.915170Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T06:51:46.689970Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T06:51:46.689997Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T06:51:46.690029Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T06:51:46.690034Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T06:51:51.768007Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791269511691764730-18535-0.json
+2026-10-06T06:51:51.768509Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T06:54:38.572419Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T06:54:38.572637Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T06:58:41.591371Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T06:58:41.591519Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T07:01:41.215186Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T07:01:41.215218Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t2"
+2026-10-06T07:01:44.302131Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T07:01:44.302160Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T07:01:48.585594Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T07:01:48.585767Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T07:01:49.304167Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T07:02:25.007711Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T07:02:25.007738Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:02:25.007777Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:02:28.724286Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T07:02:28.724315Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T07:02:33.726238Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T07:03:00.381218Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T07:03:00.381997Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T07:04:59.905506Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-10-06T07:04:59.905540Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T07:05:04.908197Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T07:05:52.539425Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T07:35:52.541265Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T07:39:37.945477Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T07:39:37.946087Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T10:26:22.628399Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:26:27.647891Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791282387643482444-18535-0.json
+2026-10-06T10:26:27.648153Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:26:37.566993Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:26:42.569745Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:26:50.520980Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:26:55.523091Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:27:05.418580Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:10.420073Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:27:16.525837Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:21.527854Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:27:24.290173Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:28.728277Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:31.695217Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:35.293575Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:37.484861Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:42.487238Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:27:43.665761Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:46.064686Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:49.583827Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:27:54.586319Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:27:56.436360Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:28:01.437867Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:28:06.456487Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:28:11.458827Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:28:15.675805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-10-06T10:28:20.140542Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Omp) agent=None pgid=Some(18547)
+2026-10-06T10:28:20.162291Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T10:28:20.162467Z  INFO herdr::pane: pane session terminated pane=1 pid=18547 signal=Hangup
+2026-10-06T10:28:22.041586Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 1, signal: None }"
+2026-10-06T10:28:22.041740Z  INFO herdr::pane: pane session terminated pane=3 pid=25279 signal=Hangup
+2026-10-06T10:28:24.271220Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T10:28:24.271371Z  INFO herdr::pane: pane session terminated pane=4 pid=38451 signal=Hangup
+2026-10-06T10:28:29.272990Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T10:30:33.856893Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T10:30:33.858996Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=77313
+2026-10-06T10:30:33.859248Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T10:30:38.863650Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T10:35:17.308819Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T10:35:17.310729Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=85753
+2026-10-06T10:35:17.312242Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=7
+2026-10-06T10:35:17.315271Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-10-06T10:35:17.315321Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-10-06T10:35:22.320648Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:35:29.405077Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Omp) process=omp pgid=Some(85962)
+2026-10-06T10:35:30.553161Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(Omp) process=omp pgid=Some(85962)
+2026-10-06T10:35:35.381292Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:35:40.557894Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T10:35:40.557927Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T10:35:44.958889Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-10-06T10:35:44.958915Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-10-06T10:35:46.861929Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T10:35:46.861955Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T10:35:51.864818Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:37:23.543934Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T10:39:01.353006Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-10-06T10:39:01.353232Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-10-06T10:39:06.356066Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:39:09.268302Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T10:39:09.268344Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T10:39:14.270787Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T10:42:04.463336Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T10:42:04.463681Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:07:23.544744Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T11:08:55.679389Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:08:55.679445Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:09:00.686338Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791284940682429050-18535-0.json
+2026-10-06T11:09:00.686810Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:10:10.384208Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:10:10.388492Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:16:31.509277Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-10-06T11:16:31.519973Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-10-06T11:16:36.522030Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:16:41.850361Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(Omp) agent=None pgid=Some(85753)
+2026-10-06T11:16:42.049574Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T11:16:42.049833Z  INFO herdr::pane: pane session terminated pane=7 pid=85753 signal=Hangup
+2026-10-06T11:16:43.979210Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T11:16:43.979305Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T11:16:48.981363Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:17:03.918611Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:17:03.929383Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:17:06.960036Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T11:17:06.960088Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T11:17:11.961926Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:22:05.773941Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:22:05.784754Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:22:10.785997Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:23:57.180301Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T11:23:57.182743Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=99109
+2026-10-06T11:23:57.183008Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:24:02.202106Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791285842197709901-18535-0.json
+2026-10-06T11:24:02.202551Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:25:51.704104Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:25:51.704146Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:25:56.708319Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:26:59.907705Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T11:26:59.907760Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-06T11:27:04.909426Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:27:17.106000Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:27:17.106085Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:30:13.090495Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:30:13.090575Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:30:14.953545Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:30:19.955154Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:30:32.705444Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:30:37.707765Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:30:48.836702Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:30:48.836736Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:30:53.838849Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:31:58.641860Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:31:58.642030Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:32:57.233688Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:33:02.236783Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:33:36.320623Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:33:37.760130Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:33:42.762422Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:34:29.600258Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:34:29.600442Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:37:23.545676Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T11:39:19.597826Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:39:19.597969Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:43:14.633805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:43:19.640418Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791286999636372922-18535-0.json
+2026-10-06T11:43:19.640884Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:44:42.076603Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:44:47.078324Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-06T11:45:32.030331Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=32 cols=72 scrollback_limit_bytes=10000000
+2026-10-06T11:45:32.032710Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=106007
+2026-10-06T11:45:32.033232Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=9
+2026-10-06T11:45:32.033255Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T11:45:32.033267Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T11:45:37.036471Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:47:08.744841Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:47:08.744973Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:48:35.663963Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T11:48:35.663998Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:48:40.667050Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:49:01.670463Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T11:49:01.670511Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T11:49:06.673127Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:49:31.670579Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T11:49:31.670653Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:49:31.670740Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:49:33.628593Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:49:38.631863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:49:58.367569Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:49:58.367735Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T11:51:56.484077Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T11:51:56.484124Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T11:52:01.486544Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:52:52.452875Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T11:52:52.452904Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:52:52.452974Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T11:52:52.452984Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T11:52:57.455606Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T11:55:25.858667Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T11:55:25.858958Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:00:44.117518Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:00:49.146365Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791288049131350292-18535-0.json
+2026-10-06T12:00:49.146622Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:01:23.108107Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:01:28.110202Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:03:32.127806Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:03:32.138573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:03:34.555842Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T12:03:34.558323Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=110407
+2026-10-06T12:03:34.558758Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:03:35.516540Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:03:35.516571Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:03:39.534963Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:03:39.535006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:03:44.537533Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:03:46.141708Z  INFO herdr::pane: agent changed pane=10 previous_agent=None agent=Some(Omp) process=omp pgid=Some(110464)
+2026-10-06T12:03:46.584181Z  INFO herdr::pane: agent changed pane=10 previous_agent=None agent=Some(Omp) process=omp pgid=Some(110464)
+2026-10-06T12:03:51.447513Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:04:14.768792Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:04:14.768821Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:04:19.770959Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:04:32.892213Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:04:32.892338Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:05:33.703174Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:05:33.703276Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:07:23.546448Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T12:14:14.785014Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:14:14.785057Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:14:17.795086Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:14:19.713535Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:14:19.713583Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:14:24.716771Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:14:34.367256Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:14:34.367281Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:14:41.169418Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:16:10.610592Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:16:10.621989Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:20:44.097566Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-06T12:20:44.100169Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=114656
+2026-10-06T12:20:44.100439Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:20:45.896789Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=11 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T12:20:45.897052Z  INFO herdr::pane: pane session terminated pane=11 pid=114656 signal=Hangup
+2026-10-06T12:20:47.503623Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:20:47.503716Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:20:52.548516Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791289252543867546-18535-0.json
+2026-10-06T12:20:52.549003Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:21:20.908980Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:21:20.909023Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:21:25.911194Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:22:23.936831Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:22:23.936868Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:22:28.939890Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:22:31.116145Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(Omp) agent=None pgid=Some(39921)
+2026-10-06T12:22:35.816659Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:27:06.577436Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(116335)
+2026-10-06T12:27:07.098840Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(116335)
+2026-10-06T12:27:11.961587Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:28:36.285547Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:28:36.285580Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:28:41.287332Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:31:43.684254Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:31:43.684363Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:34:26.956981Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:34:26.957009Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:34:31.959851Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:35:12.003995Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=32 cols=100 scrollback_limit_bytes=10000000
+2026-10-06T12:35:12.005743Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=118728
+2026-10-06T12:35:12.006051Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=12
+2026-10-06T12:35:12.006065Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-06T12:35:12.006075Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-10-06T12:35:17.009904Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:37:00.441472Z  INFO herdr::pane: agent changed pane=12 previous_agent=None agent=Some(Omp) process=omp pgid=Some(120205)
+2026-10-06T12:37:00.636386Z  INFO herdr::pane: agent changed pane=12 previous_agent=None agent=Some(Omp) process=omp pgid=Some(120205)
+2026-10-06T12:37:04.669623Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:37:04.669786Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:37:05.549884Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791290225545019604-18535-0.json
+2026-10-06T12:37:05.550310Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:37:19.651974Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:37:19.652006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:37:22.844382Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:37:22.844417Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:37:23.547390Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-06T12:37:27.845889Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:37:37.455417Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:37:42.457695Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:38:17.769522Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:38:17.769650Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:38:23.493138Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:38:23.493169Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:38:28.495718Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:38:33.387673Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:38:33.387700Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:38:35.593314Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:38:35.593343Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:38:40.595954Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:39:32.638588Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:39:32.638617Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:39:37.640606Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:40:32.593088Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-06T12:40:32.593132Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-10-06T12:40:34.332804Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:40:34.332844Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:40:36.959763Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:40:36.959788Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:40:38.787775Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=13 rows=32 cols=100 scrollback_limit_bytes=10000000
+2026-10-06T12:40:38.790710Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=13 pid=121472
+2026-10-06T12:40:38.791232Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=13
+2026-10-06T12:40:38.791250Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-10-06T12:40:38.791265Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-10-06T12:40:40.827891Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=13 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T12:40:40.828058Z  INFO herdr::pane: pane session terminated pane=13 pid=121472 signal=Hangup
+2026-10-06T12:40:44.020556Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:40:44.020588Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:40:44.020638Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:40:45.749452Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=14 rows=32 cols=100 scrollback_limit_bytes=10000000
+2026-10-06T12:40:45.750935Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=14 pid=121518
+2026-10-06T12:40:45.751137Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-10-06T12:40:50.754485Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:42:01.762439Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:42:01.763836Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:42:19.775571Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:42:19.775749Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:42:24.778834Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:43:06.696249Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:43:06.707051Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:43:11.709176Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:43:12.375133Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:43:12.375223Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:43:30.289017Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:43:30.289054Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:43:35.291594Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:43:56.054208Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-10-06T12:43:56.054252Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-10-06T12:44:01.057416Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:44:04.120334Z  INFO herdr::pane: agent changed pane=12 previous_agent=Some(Omp) agent=None pgid=Some(118728)
+2026-10-06T12:44:08.821712Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-06T12:46:29.143671Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=12 status="ExitStatus { code: 0, signal: None }"
+2026-10-06T12:46:29.143938Z  INFO herdr::pane: pane session terminated pane=12 pid=118728 signal=Hangup
+2026-10-06T12:46:31.907944Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-10-06T12:46:31.907970Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:46:31.908002Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:46:34.878229Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(116335)
+2026-10-06T12:46:36.166692Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:46:36.166737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-10-06T12:46:41.169278Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:46:42.622891Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-10-06T12:46:42.622933Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:46:47.625304Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:49:39.247748Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:49:39.247879Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T12:55:17.733043Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:55:22.752291Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791291322747894546-18535-0.json
+2026-10-06T12:55:22.752768Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:58:45.464090Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-10-06T12:58:50.477597Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-06T12:59:04.787671Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T12:59:04.787843Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T13:02:34.331307Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-06T13:02:34.331439Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-06T13:07:23.588477Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T11:36:55.356366Z  INFO herdr::pane: agent changed pane=10 previous_agent=Some(Omp) agent=None pgid=Some(110407)
+2026-10-07T11:36:56.434018Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 130, signal: None }"
+2026-10-07T11:36:56.434649Z  INFO herdr::pane: pane session terminated pane=10 pid=110407 signal=Hangup
+2026-10-07T11:37:01.450312Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791373021442369159-18535-0.json
+2026-10-07T11:37:01.450413Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-07T11:49:27.301037Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T13:29:46.315969Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 130, signal: None }"
+2026-10-07T13:29:46.316364Z  INFO herdr::pane: pane session terminated pane=9 pid=106007 signal=Hangup
+2026-10-07T13:29:51.325730Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791379791319424895-18535-0.json
+2026-10-07T13:29:51.325794Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-07T13:39:51.841238Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=14 status="ExitStatus { code: 0, signal: None }"
+2026-10-07T13:39:51.859017Z  INFO herdr::pane: pane session terminated pane=14 pid=121518 signal=Hangup
+2026-10-07T13:39:55.526711Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-10-07T13:39:55.526863Z  INFO herdr::pane: pane session terminated pane=8 pid=99109 signal=Hangup
+2026-10-07T13:39:59.756149Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-07T13:39:59.756255Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t2"
+2026-10-07T13:40:00.542056Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-10-07T13:40:00.542296Z  INFO herdr::pane: pane session terminated pane=6 pid=77313 signal=Hangup
+2026-10-07T13:40:05.555867Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-07T13:40:11.571534Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=15 rows=32 cols=143 scrollback_limit_bytes=10000000
+2026-10-07T13:40:11.576341Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=15 pid=142538
+2026-10-07T13:40:11.576970Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w7" pane_id=15
+2026-10-07T13:40:11.576986Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w7"
+2026-10-07T13:40:11.576996Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w7" tab_id="w7:t1"
+2026-10-07T13:40:16.580632Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-07T13:46:29.426644Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T14:16:29.427553Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T14:46:29.428154Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T15:16:29.429024Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T15:46:29.429933Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T15:46:47.501357Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-10-07T16:16:29.431147Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T16:46:29.432063Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T17:16:29.433675Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T17:46:29.434980Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T17:46:47.493883Z  WARN herdr::detect::manifest_update: agent detection manifest update failed: failed to fetch https://herdr.dev/agent-detection/index.toml
+2026-10-07T18:16:29.436741Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T18:46:29.438158Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T19:16:29.439202Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T19:46:29.440023Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T20:16:29.441563Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T20:46:29.441853Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T21:16:29.443571Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T21:46:29.444520Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T22:16:29.445284Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-07T22:46:29.446894Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T02:00:07.240771Z  INFO herdr::server::headless: client detached client_id=2
+2026-10-08T02:04:50.322680Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T02:34:50.337670Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T03:04:50.339869Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T04:11:09.455767Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T04:47:45.524232Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T07:13:28.491983Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T07:14:07.519612Z  INFO herdr::server::headless: client connected client_id=4 cols=170 rows=34 cell_width_px=11 cell_height_px=28 surface_active=true render_encoding=SemanticFrame
+2026-10-08T07:14:15.949971Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=15 status="ExitStatus { code: 130, signal: None }"
+2026-10-08T07:14:15.951049Z  INFO herdr::pane: pane session terminated pane=15 pid=142538 signal=Hangup
+2026-10-08T07:14:20.969722Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791443660965975428-18535-0.json
+2026-10-08T07:14:20.970786Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-08T07:14:35.154890Z  INFO herdr::pane: agent changed pane=5 previous_agent=Some(Omp) agent=None pgid=Some(39921)
+2026-10-08T07:14:39.588059Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 130, signal: None }"
+2026-10-08T07:14:39.588253Z  INFO herdr::pane: pane session terminated pane=5 pid=39921 signal=Hangup
+2026-10-08T07:14:39.588844Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=16 rows=34 cols=170 scrollback_limit_bytes=10000000
+2026-10-08T07:14:39.590917Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=16 pid=287006
+2026-10-08T07:14:39.591239Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w8" pane_id=16
+2026-10-08T07:14:39.591257Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-08T07:14:39.591278Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:14:41.848195Z  INFO herdr::server::headless: client detached client_id=4
+2026-10-08T07:14:43.356437Z  INFO herdr::server::headless: client connected client_id=6 cols=170 rows=34 cell_width_px=11 cell_height_px=28 surface_active=true render_encoding=SemanticFrame
+2026-10-08T07:14:44.606117Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-08T07:14:44.992780Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:14:49.995013Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-08T07:20:03.071895Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=17 rows=34 cols=170 scrollback_limit_bytes=10000000
+2026-10-08T07:20:03.083730Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=17 pid=288357
+2026-10-08T07:20:03.084040Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w9" pane_id=17
+2026-10-08T07:20:03.084050Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-10-08T07:20:03.084056Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-10-08T07:20:08.087399Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:21:10.029029Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-08T07:21:10.029064Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:21:15.031420Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:29:46.656977Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(291189)
+2026-10-08T07:29:47.008550Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(291189)
+2026-10-08T07:29:52.130097Z  INFO herdr::pane: agent changed pane=16 previous_agent=Some(Omp) agent=None pgid=Some(287006)
+2026-10-08T07:29:53.134549Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(291241)
+2026-10-08T07:29:56.845841Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791444596830256998-18535-0.json
+2026-10-08T07:29:56.846914Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:31:16.261776Z  INFO herdr::pane: agent changed pane=16 previous_agent=Some(Omp) agent=None pgid=Some(287006)
+2026-10-08T07:31:44.871540Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(291618)
+2026-10-08T07:31:46.312057Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(291618)
+2026-10-08T07:31:51.311058Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:32:49.689034Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T07:32:49.689136Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T07:34:56.455700Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T07:34:56.459833Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T07:37:09.071122Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T07:37:09.071255Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T07:39:59.344992Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T07:39:59.345084Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T07:40:12.537136Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=18 rows=34 cols=170 scrollback_limit_bytes=10000000
+2026-10-08T07:40:12.540735Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=18 pid=293263
+2026-10-08T07:40:12.541042Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:40:17.555060Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:41:54.976461Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:41:54.977977Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:41:59.980894Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:42:53.927513Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:42:55.763098Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:42:55.763210Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:43:00.765891Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:43:28.495889Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T07:45:38.220459Z  INFO herdr::pane: agent changed pane=18 previous_agent=None agent=Some(Antigravity) process=agy pgid=Some(296431)
+2026-10-08T07:46:26.137521Z  INFO herdr::pane: agent changed pane=18 previous_agent=Some(Antigravity) agent=None pgid=Some(293263)
+2026-10-08T07:47:50.227195Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=19 rows=34 cols=170 scrollback_limit_bytes=10000000
+2026-10-08T07:47:50.230036Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=19 pid=297095
+2026-10-08T07:47:50.230297Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:47:55.254855Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791445675250109234-18535-0.json
+2026-10-08T07:47:55.256910Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:50:04.776628Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=19 status="ExitStatus { code: 0, signal: None }"
+2026-10-08T07:50:04.777910Z  INFO herdr::pane: pane session terminated pane=19 pid=297095 signal=Hangup
+2026-10-08T07:50:09.782247Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:51:09.258321Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:51:09.269216Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:51:14.272348Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:51:35.134598Z  INFO herdr::pane: agent changed pane=16 previous_agent=Some(Omp) agent=None pgid=Some(287006)
+2026-10-08T07:51:37.147240Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(298493)
+2026-10-08T07:51:37.549510Z  INFO herdr::pane: agent changed pane=16 previous_agent=None agent=Some(Omp) process=omp pgid=Some(298493)
+2026-10-08T07:51:42.415543Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:52:48.718378Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:52:48.718472Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:52:53.720672Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:55:48.811574Z  INFO herdr::pane: agent changed pane=18 previous_agent=None agent=Some(Omp) process=omp pgid=Some(299850)
+2026-10-08T07:55:49.634273Z  INFO herdr::pane: agent changed pane=18 previous_agent=None agent=Some(Omp) process=omp pgid=Some(299850)
+2026-10-08T07:55:54.535166Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T07:56:04.423102Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T07:56:06.295351Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T07:56:11.297587Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T08:02:45.801833Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T08:02:45.804870Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T08:03:04.237113Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T08:03:04.237210Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T08:13:28.487575Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T08:14:02.928334Z  INFO herdr::pane: agent changed pane=18 previous_agent=Some(Omp) agent=None pgid=Some(293263)
+2026-10-08T08:14:05.936483Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T08:14:05.936577Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T08:14:10.981522Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791447250939077847-18535-0.json
+2026-10-08T08:14:10.982057Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T08:17:37.484297Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T08:17:37.484511Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T08:30:24.878512Z  INFO herdr::server::headless: client detached client_id=6
+2026-10-08T08:30:25.299265Z  INFO herdr::platform::linux::shutdown: host shutdown requested; preserving session before pane termination
+2026-10-08T08:30:25.299325Z  INFO herdr::server::headless::lifecycle: server shutdown initiated
+2026-10-08T08:30:25.349426Z  INFO herdr::server::headless::lifecycle: completing server shutdown
+2026-10-08T08:30:25.356856Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791448225350306416-18535-0.json
+2026-10-08T08:30:25.357383Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T08:30:25.357409Z  INFO herdr::server::headless: headless server exiting
+2026-10-08T08:30:25.360019Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=16 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-08T08:30:25.512717Z  INFO herdr::pane: pane session terminated pane=16 pid=287006 signal=Hangup
+2026-10-08T08:30:25.514430Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=18 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-08T08:30:25.521405Z  INFO herdr::pane: pane session terminated pane=18 pid=293263 signal=Hangup
+2026-10-08T08:30:25.525963Z  INFO herdr::pane: pane session terminated pane=17 pid=288357 signal=Hangup
+2026-10-08T08:30:25.525971Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=17 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-10-08T08:30:25.527766Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=18535
+2026-10-08T08:54:50.375246Z  INFO herdr::api::server: api server listening path=/home/arjun/.config/herdr/herdr.sock
+2026-10-08T08:54:50.377732Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-08T08:54:50.379059Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=7544
+2026-10-08T08:54:50.379648Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-10-08T08:54:50.380958Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=7548
+2026-10-08T08:54:50.381276Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=2
+2026-10-08T08:54:50.381321Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-10-08T08:54:50.482573Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T08:54:50.483566Z  INFO herdr::server::headless::bootstrap: restored session already has workspaces; ignoring startup cwd cwd=/home/arjun
+2026-10-08T08:54:50.483659Z  INFO herdr::server::headless: client protocol socket listening path=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-08T08:54:50.483778Z  INFO herdr::server::headless::bootstrap: herdr server started api_socket=/home/arjun/.config/herdr/herdr.sock client_socket=/home/arjun/.config/herdr/herdr-client.sock
+2026-10-08T08:54:50.483822Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=7536
+2026-10-08T08:54:50.752815Z  INFO herdr::server::headless: client connected client_id=2 cols=169 rows=35 cell_width_px=11 cell_height_px=28 surface_active=true render_encoding=SemanticFrame
+2026-10-08T08:54:50.787745Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=35 cols=169 scrollback_limit_bytes=10000000
+2026-10-08T08:54:50.789693Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=7633
+2026-10-08T08:54:51.342460Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(7668)
+2026-10-08T08:54:51.757006Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(7668)
+2026-10-08T08:54:54.772448Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Omp) agent=None pgid=Some(7633)
+2026-10-08T08:54:55.275348Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(7725)
+2026-10-08T08:54:55.962155Z  INFO herdr::pane: agent changed pane=1 previous_agent=None agent=Some(Omp) process=omp pgid=Some(7725)
+2026-10-08T08:55:00.905910Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791449700862239259-7536-0.json
+2026-10-08T08:55:00.905999Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T08:58:14.470613Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T08:58:14.470686Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T09:04:55.126351Z  INFO herdr::pane: agent changed pane=1 previous_agent=Some(Omp) agent=None pgid=Some(7633)
+2026-10-08T09:04:59.051916Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:04:59.052011Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:05:00.133926Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:05:00.134015Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:05:00.647511Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:05:00.647583Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:05:01.114510Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:05:01.114634Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:05:01.611409Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:05:01.611498Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:05:06.614012Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:05:22.173852Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Omp) process=omp pgid=Some(10859)
+2026-10-08T09:05:22.422576Z  INFO herdr::pane: agent changed pane=2 previous_agent=None agent=Some(Omp) process=omp pgid=Some(10859)
+2026-10-08T09:05:27.380057Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:07:05.139061Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=35 cols=169 scrollback_limit_bytes=10000000
+2026-10-08T09:07:05.152176Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=11956
+2026-10-08T09:07:05.152517Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:07:07.208840Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Omp) process=omp pgid=Some(12006)
+2026-10-08T09:07:07.631359Z  INFO herdr::pane: agent changed pane=4 previous_agent=None agent=Some(Omp) process=omp pgid=Some(12006)
+2026-10-08T09:07:12.631671Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:07:40.237309Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:07:42.144940Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:07:43.192801Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:07:43.192965Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:07:48.195258Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:07:48.246115Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:07:48.246196Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:07:48.954103Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:07:48.954174Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:07:53.956931Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:08:26.049524Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:08:26.049578Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:08:31.052330Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:09:11.736450Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:09:11.736500Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-10-08T09:09:12.932868Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-10-08T09:09:12.933046Z  INFO herdr::pane: pane session terminated pane=1 pid=7633 signal=Hangup
+2026-10-08T09:09:17.934919Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:09:17.977920Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-10-08T09:09:17.977958Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-10-08T09:09:18.536804Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-10-08T09:09:18.537250Z  INFO herdr::pane: pane session terminated pane=3 pid=7548 signal=Hangup
+2026-10-08T09:09:23.539038Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=1
+2026-10-08T09:12:59.245146Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=18 cols=147 scrollback_limit_bytes=10000000
+2026-10-08T09:12:59.247581Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=13810
+2026-10-08T09:12:59.247987Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wA" pane_id=5
+2026-10-08T09:12:59.248004Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T09:12:59.248017Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T09:13:03.813486Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(13870)
+2026-10-08T09:13:04.264245Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791450784258330281-7536-0.json
+2026-10-08T09:13:04.264837Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:13:04.403573Z  INFO herdr::pane: agent changed pane=5 previous_agent=None agent=Some(Omp) process=omp pgid=Some(13870)
+2026-10-08T09:13:09.268004Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:14:04.550490Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=35 cols=147 scrollback_limit_bytes=10000000
+2026-10-08T09:14:04.552652Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=14150
+2026-10-08T09:14:04.553266Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wB" pane_id=6
+2026-10-08T09:14:04.553281Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wB"
+2026-10-08T09:14:04.553291Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wB" tab_id="wB:t1"
+2026-10-08T09:14:07.949133Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-10-08T09:14:07.949303Z  INFO herdr::pane: pane session terminated pane=6 pid=14150 signal=Hangup
+2026-10-08T09:14:09.727005Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=35 cols=147 scrollback_limit_bytes=10000000
+2026-10-08T09:14:09.728773Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=14191
+2026-10-08T09:14:09.728978Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T09:14:14.730903Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:14:50.600871Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T09:14:51.279201Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T09:14:51.279292Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T09:14:56.281396Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:14:57.688629Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T09:14:59.730805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T09:14:59.731083Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T09:15:04.733642Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:16:00.779965Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T09:16:00.780053Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T09:16:04.056441Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T09:16:04.056570Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T09:16:18.248498Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T09:16:18.248590Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T09:16:23.250994Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:17:19.149758Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T09:17:19.149911Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T09:19:00.074909Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-08T09:19:00.074951Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:19:00.075018Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:19:05.077960Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:19:27.935573Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T09:19:32.937536Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:21:49.865338Z  INFO herdr::pane: agent changed pane=4 previous_agent=Some(Omp) agent=None pgid=Some(11956)
+2026-10-08T09:21:50.578456Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-10-08T09:21:50.583509Z  INFO herdr::pane: pane session terminated pane=4 pid=11956 signal=Hangup
+2026-10-08T09:21:55.595413Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T09:24:50.484364Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T09:30:09.034906Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T09:30:09.035021Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T09:54:50.485313Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T10:24:50.486521Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T10:28:07.471253Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T10:28:10.189542Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T10:28:10.189582Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T10:28:15.208032Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791455295203527523-7536-0.json
+2026-10-08T10:28:15.208655Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T10:31:45.447236Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=35 cols=147 scrollback_limit_bytes=10000000
+2026-10-08T10:31:45.450877Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=35279
+2026-10-08T10:31:45.451483Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wC" pane_id=8
+2026-10-08T10:31:45.451502Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wC"
+2026-10-08T10:31:45.451516Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wC" tab_id="wC:t1"
+2026-10-08T10:31:50.456710Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:32:30.176547Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-10-08T10:32:30.177284Z  INFO herdr::pane: pane session terminated pane=8 pid=35279 signal=Hangup
+2026-10-08T10:32:32.267291Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:32:32.267406Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:32:33.616399Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T10:32:33.616515Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T10:32:38.619679Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T10:35:23.123648Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:35:23.123950Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:35:24.678770Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T10:35:24.678871Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T10:35:29.692518Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T10:40:14.747802Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:40:14.747891Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:40:19.757173Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T10:41:17.317972Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-08T10:41:17.318008Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T10:41:22.320809Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T10:41:49.151475Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T10:41:49.151594Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T10:41:54.409200Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T10:41:54.409283Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:41:59.411868Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=2
+2026-10-08T10:44:37.635272Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=28 cols=120 scrollback_limit_bytes=10000000
+2026-10-08T10:44:37.637090Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=41966
+2026-10-08T10:44:37.637381Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wD" pane_id=9
+2026-10-08T10:44:37.637393Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-10-08T10:44:37.637400Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-10-08T10:44:42.654862Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791456282651233739-7536-0.json
+2026-10-08T10:44:42.655106Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:46:34.829890Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T10:46:34.830040Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T10:46:44.301172Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-08T10:46:44.301204Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T10:46:49.305007Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:46:58.143516Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-10-08T10:46:58.143549Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-10-08T10:47:03.145356Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:48:57.902578Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T10:48:57.902710Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T10:49:21.416604Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T10:49:21.416630Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:49:26.419117Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:52:13.443638Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-10-08T10:52:13.454805Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-10-08T10:52:13.454945Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-10-08T10:52:13.454957Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-10-08T10:52:14.186633Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T10:52:14.186677Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:52:14.186760Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T10:52:14.186771Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:52:15.410499Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-10-08T10:52:15.410532Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-10-08T10:52:15.410584Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wD"
+2026-10-08T10:52:15.410592Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wD" tab_id="wD:t1"
+2026-10-08T10:52:20.413110Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:53:46.696285Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-10-08T10:53:46.696329Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T10:53:51.699022Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T10:54:50.488406Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T10:55:59.967388Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T10:55:59.967454Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T11:02:07.182758Z  INFO herdr::logging: api request received event="api.request.start" subsystem="api" outcome="started" request_id="cli:notification:show" method="notification.show" changes_ui=true
+2026-10-08T11:02:07.220114Z  INFO herdr::logging: api request completed event="api.request.complete" subsystem="api" outcome="ok" request_id="cli:notification:show" method="notification.show"
+2026-10-08T11:02:55.551970Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T11:02:55.566390Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T11:03:00.632755Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791457380578883967-7536-0.json
+2026-10-08T11:03:00.633172Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T11:24:50.489631Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-10-08T11:51:37.902685Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T11:51:37.904598Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T11:51:38.699069Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T11:51:38.699197Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-10-08T11:51:39.208183Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T11:51:39.208252Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-10-08T11:51:40.976231Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w8"
+2026-10-08T11:51:40.976261Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-10-08T11:51:45.995105Z  INFO herdr::persist::writer: preserved session recovery copy event="persist.backup" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json backup_path=/home/arjun/.config/herdr/session-snapshots/session-000000000000000000001791460305991022046-7536-0.json
+2026-10-08T11:51:45.995659Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3
+2026-10-08T11:51:47.104600Z  INFO herdr::pane: agent changed pane=2 previous_agent=Some(Omp) agent=None pgid=Some(7544)
+2026-10-08T11:51:51.810114Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/arjun/.config/herdr/session.json workspaces=3

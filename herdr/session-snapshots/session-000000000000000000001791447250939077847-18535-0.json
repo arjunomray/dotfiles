@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w8",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/chats",
+      "public_pane_numbers": {
+        "18": 2,
+        "16": 1
+      },
+      "next_public_pane_number": 4,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 16
+          },
+          "panes": {
+            "16": {
+              "cwd": "/home/arjun/code/chats",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-chats/2026-10-08T07-51-37-228Z_01a11a7f-100c-75d0-875c-02e201d4bf30.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 16,
+          "root_pane": 16
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 18
+          },
+          "panes": {
+            "18": {
+              "cwd": "/home/arjun/.config",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-.config/2026-10-08T07-55-49-060Z_01a11a82-e7c4-708d-9ec4-28206d5b88dd.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 18,
+          "root_pane": 18
+        }
+      ],
+      "active_tab": 1
+    },
+    {
+      "id": "w9",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun",
+      "public_pane_numbers": {
+        "17": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 17
+          },
+          "panes": {
+            "17": {
+              "cwd": "/home/arjun"
+            }
+          },
+          "zoomed": false,
+          "focused": 17,
+          "root_pane": 17
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

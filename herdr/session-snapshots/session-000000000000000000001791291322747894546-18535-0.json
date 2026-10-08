@@ -1,0 +1,140 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w2",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/job-finding-2026",
+      "public_pane_numbers": {
+        "5": 1,
+        "6": 2,
+        "8": 3
+      },
+      "next_public_pane_number": 4,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 5
+              },
+              "second": {
+                "Pane": 8
+              }
+            }
+          },
+          "panes": {
+            "8": {
+              "cwd": "/home/arjun/code/job-finding-2026"
+            },
+            "5": {
+              "cwd": "/home/arjun/code/job-finding-2026",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-job-finding-2026/2026-10-06T12-46-34-648Z_01a11140-6298-74da-97a4-501bfd5c8cc9.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 8,
+          "root_pane": 5
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 6
+          },
+          "panes": {
+            "6": {
+              "cwd": "/home/arjun/code"
+            }
+          },
+          "zoomed": false,
+          "focused": 6,
+          "root_pane": 6
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w4",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/my-website",
+      "public_pane_numbers": {
+        "9": 1,
+        "14": 4,
+        "10": 2
+      },
+      "next_public_pane_number": 5,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.70000005,
+              "first": {
+                "Pane": 9
+              },
+              "second": {
+                "Pane": 10
+              }
+            }
+          },
+          "panes": {
+            "10": {
+              "cwd": "/home/arjun/code/my-website",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-my-website/2026-10-06T12-03-46-272Z_01a11119-31e0-7131-bc5b-8d49da32b1dd.jsonl"
+              }
+            },
+            "9": {
+              "cwd": "/home/arjun/code/my-website"
+            }
+          },
+          "zoomed": false,
+          "focused": 10,
+          "root_pane": 9
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 14
+          },
+          "panes": {
+            "14": {
+              "cwd": "/home/arjun/code/my-website"
+            }
+          },
+          "zoomed": false,
+          "focused": 14,
+          "root_pane": 14
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 1,
+  "selected": 1,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

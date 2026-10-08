@@ -1,10 +1,13 @@
 [general]
 import = [
- "./themes/themes/catppuccin_mocha.toml"
+ "./themes/themes/everforest_dark.toml"
 ]
+
+[window]
+opacity = 0.8
 
 [font]
 size = 13
 
 [font.normal]
-family = "JetbrainsMono Nerd Font"
+family = "Iosevka Nerd Font"

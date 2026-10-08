@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w1",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/chats",
+      "public_pane_numbers": {
+        "4": 4,
+        "1": 1,
+        "3": 3
+      },
+      "next_public_pane_number": 5,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Split": {
+              "direction": "Horizontal",
+              "ratio": 0.5,
+              "first": {
+                "Pane": 1
+              },
+              "second": {
+                "Pane": 3
+              }
+            }
+          },
+          "panes": {
+            "3": {
+              "cwd": "/home/arjun/code/chats"
+            },
+            "1": {
+              "cwd": "/home/arjun/code/chats",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-chats/2026-10-06T06-36-29-644Z_01a10fed-904c-7711-90c1-ebc539f54bd2.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 1,
+          "root_pane": 1
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 4
+          },
+          "panes": {
+            "4": {
+              "cwd": "/home/arjun/code/chats"
+            }
+          },
+          "zoomed": false,
+          "focused": 4,
+          "root_pane": 4
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w2",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/job-finding-2026",
+      "public_pane_numbers": {
+        "5": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 5
+          },
+          "panes": {
+            "5": {
+              "cwd": "/home/arjun/code/job-finding-2026",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-job-finding-2026/2026-10-06T06-43-07-625Z_01a10ff3-a2e9-7431-8236-84cd264c5133.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 5,
+          "root_pane": 5
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

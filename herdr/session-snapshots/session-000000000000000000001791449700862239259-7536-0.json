@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w8",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/code/chats",
+      "public_pane_numbers": {
+        "1": 1,
+        "2": 2
+      },
+      "next_public_pane_number": 4,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 1
+          },
+          "panes": {
+            "1": {
+              "cwd": "/home/arjun/code/chats",
+              "agent_session": {
+                "source": "herdr:omp",
+                "agent": "omp",
+                "kind": "path",
+                "value": "/home/arjun/.omp/agent/sessions/-code-chats/2026-10-08T08-54-55-589Z_01a11ab9-0565-75c1-ba8f-be0fb36abc87.jsonl"
+              }
+            }
+          },
+          "zoomed": false,
+          "focused": 1,
+          "root_pane": 1
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 2
+          },
+          "panes": {
+            "2": {
+              "cwd": "/home/arjun/.config"
+            }
+          },
+          "zoomed": false,
+          "focused": 2,
+          "root_pane": 2
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w9",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun",
+      "public_pane_numbers": {
+        "3": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 3
+          },
+          "panes": {
+            "3": {
+              "cwd": "/home/arjun"
+            }
+          },
+          "zoomed": false,
+          "focused": 3,
+          "root_pane": 3
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}

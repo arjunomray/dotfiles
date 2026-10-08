@@ -7,20 +7,21 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_ui_font_size": 16.0,
   "debugger": {
     "dock": "bottom"
   },
   "cli_default_open_behavior": "new_window",
   "bottom_dock_layout": "full",
   "title_bar": {
-    "show_branch_status_icon": true,
+    "show_branch_status_icon": true
   },
   "status_bar": {
     "line_endings_button": true,
-    "show_active_file": true,
+    "show_active_file": true
   },
   "active_pane_modifiers": {
-    "inactive_opacity": 0.8,
+    "inactive_opacity": 0.8
   },
   "auto_update": false,
   "lsp": {
@@ -28,61 +29,65 @@
       "settings": {
         "typescript": {
           "updateImportsOnFileMove": {
-            "enabled": "always",
-          },
+            "enabled": "always"
+          }
         },
         "javascript": {
           "updateImportsOnFileMove": {
-            "enabled": "always",
-          },
-        },
+            "enabled": "always"
+          }
+        }
       },
-      "enable_lsp_tasks": true,
-    },
+      "enable_lsp_tasks": true
+    }
   },
   "agent_servers": {
+    "antigravity-acp": {
+      "type": "registry"
+    },
     "opencode": {
       "default_config_options": {
         "effort": "medium",
-        "model": "openai/gpt-5.5",
+        "model": "openai/gpt-5.5"
       },
-      "type": "registry",
+      "type": "registry"
     },
     "claude-acp": {
-      "type": "registry",
+      "type": "registry"
     },
     "cursor": {
-      "type": "registry",
+      "type": "registry"
     },
     "codex-acp": {
-      "type": "registry",
-    },
+      "type": "registry"
+    }
   },
   "edit_predictions": {
     "mode": "subtle",
-    "provider": "copilot",
+    "provider": "copilot"
   },
   "collaboration_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "outline_panel": {
-    "dock": "left",
+    "dock": "left"
   },
   "git_panel": {
-    "dock": "right",
+    "dock": "right"
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 1000,
-    },
+      "milliseconds": 1000
+    }
   },
-  "ui_font_family": ".ZedSans",
   "telemetry": {
     "diagnostics": false,
-    "metrics": false,
+    "metrics": false
   },
   "agent": {
-    "sidebar_side": "right",
+    "threads_sidebar": {
+      "position": "right"
+    },
     "button": true,
     "single_file_review": true,
     "dock": "right",
@@ -94,28 +99,29 @@
       "effort": "high",
       "provider": "copilot_chat",
       "model": "gpt-5-mini",
-      "enable_thinking": true,
+      "enable_thinking": true
     },
     "model_parameters": [],
-    "default_profile": "ask",
+    "default_profile": "ask"
   },
   "icon_theme": {
-    "mode": "dark",
-    "light": "Colored Zed Icons Theme Light",
-    "dark": "Catppuccin Mocha",
+    "mode": "light",
+    "light": "VSCode Icons for Zed (Dark Angular)",
+    "dark": "Catppuccin Mocha"
   },
   "project_panel": {
-    "dock": "right",
+    "dock": "right"
   },
   "ui_font_size": 16.0,
-  "buffer_font_size": 13.0,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "helix_mode": true,
+  "ui_font_family": "Iosevka Nerd Font",
+  "buffer_font_size": 16.0,
+  "buffer_font_family": "Iosevka Nerd Font",
+  // "helix_mode": true,
   "vim_mode": true,
   "theme": {
     "mode": "dark",
     "light": "Catppuccin Mocha",
-    "dark": "Catppuccin Mocha",
+    "dark": "Everforest Dark Hard (blur)"
   },
   // Editor toolbar related settings
   "toolbar": {
@@ -123,7 +129,7 @@
     "quick_actions": true, // Whether to show quick action buttons.
     "selections_menu": true, // Whether to show the Selections menu
     "agent_review": true, // Whether to show agent review buttons
-    "code_actions": false, // Whether to show code action buttons
+    "code_actions": false // Whether to show code action buttons
   },
 
   // Whether the cursor blinks in the editor.
@@ -161,12 +167,12 @@
     "runnables": true, // Show/hide runnables buttons in the gutter.
     "breakpoints": true, // Show/hide show breakpoints in the gutter.
     "folds": true, // Show/hide show fold buttons in the gutter.
-    "min_line_number_digits": 4, // Reserve space for N digit line numbers
+    "min_line_number_digits": 4 // Reserve space for N digit line numbers
   },
   "relative_line_numbers": "enabled", // Show relative line numbers in gutter
 
   "tab_bar": {
-    "show": false,
+    "show": false
   },
 
   // Indent guides
@@ -175,6 +181,6 @@
     "line_width": 1, // Width of guides in pixels [1-10]
     "active_line_width": 1, // Width of active guide in pixels [1-10]
     "coloring": "fixed", // disabled, fixed, indent_aware
-    "background_coloring": "disabled", // disabled, indent_aware
-  },
+    "background_coloring": "disabled" // disabled, indent_aware
+  }
 }

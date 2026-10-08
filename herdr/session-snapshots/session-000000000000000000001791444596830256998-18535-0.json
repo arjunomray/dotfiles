@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "workspaces": [
+    {
+      "id": "w8",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun/dotfiles",
+      "public_pane_numbers": {
+        "16": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 16
+          },
+          "panes": {
+            "16": {
+              "cwd": "/home/arjun/dotfiles"
+            }
+          },
+          "zoomed": false,
+          "focused": 16,
+          "root_pane": 16
+        }
+      ],
+      "active_tab": 0
+    },
+    {
+      "id": "w9",
+      "custom_name": null,
+      "identity_cwd": "/home/arjun",
+      "public_pane_numbers": {
+        "17": 1
+      },
+      "next_public_pane_number": 2,
+      "public_tab_numbers": [
+        1
+      ],
+      "next_public_tab_number": 2,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 17
+          },
+          "panes": {
+            "17": {
+              "cwd": "/home/arjun"
+            }
+          },
+          "zoomed": false,
+          "focused": 17,
+          "root_pane": 17
+        }
+      ],
+      "active_tab": 0
+    }
+  ],
+  "active": 0,
+  "selected": 0,
+  "sidebar_width": null,
+  "sidebar_section_split": null,
+  "collapsed_space_keys": []
+}
